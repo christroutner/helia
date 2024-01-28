@@ -16,6 +16,35 @@
     * @helia/interface bumped from ^3.0.0 to ^3.0.1
     * @helia/unixfs bumped from ^2.0.0 to ^2.0.1
 
+## [4.0.0](https://github.com/christroutner/helia/compare/mfs-v3.0.0...mfs-v4.0.0) (2024-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* the `libp2p` property has been removed from the `Helia` interface in `@helia/interface` - it is still present on the return type of `createHelia` from the `helia` module
+* uses multiformats v13
+
+### Features
+
+* add @helia/http to monorepo ([#372](https://github.com/christroutner/helia/issues/372)) ([76220cd](https://github.com/christroutner/helia/commit/76220cd5adf45af7fa61fd0a1321de4722b744d6))
+* initial import ([a70f4eb](https://github.com/christroutner/helia/commit/a70f4eb982e377eeeeb6fd4a53f7baf40c09641b))
+* update helia to v3 and multiformats to v13 ([9f7dc0a](https://github.com/christroutner/helia/commit/9f7dc0a0581524531501fc062fefb6ba26d99c02))
+
+
+### Documentation
+
+* update docs to use MFS style API ([#4](https://github.com/christroutner/helia/issues/4)) ([88b23b0](https://github.com/christroutner/helia/commit/88b23b0db4ac9da2a9e94291f2db7b10f436ce00))
+
+
+### Dependencies
+
+* bump @helia/interface from 1.2.2 to 2.0.0 ([#2](https://github.com/christroutner/helia/issues/2)) ([351fae7](https://github.com/christroutner/helia/commit/351fae7a129e642a6f312c9a61609273dec190bf))
+* **dev:** bump helia from 2.0.1 to 2.0.3 ([#10](https://github.com/christroutner/helia/issues/10)) ([6911470](https://github.com/christroutner/helia/commit/6911470cb43720798fca571669a166eb3689dad2))
+* The following workspace dependencies were updated
+  * dependencies
+    * @helia/interface bumped from ^4.0.0 to ^5.0.0
+    * @helia/unixfs bumped from ^3.0.0 to ^4.0.0
+
 ## [3.0.0](https://github.com/ipfs/helia/compare/mfs-v2.0.1...mfs-v3.0.0) (2024-01-24)
 
 

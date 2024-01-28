@@ -12,6 +12,12 @@
   * dependencies
     * @helia/interface bumped from ^3.0.1 to ^4.0.0
 
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @helia/interface bumped from ^4.0.0 to ^5.0.0
+
 ## [3.0.0](https://github.com/ipfs/helia/compare/helia-v2.1.0...helia-v3.0.0) (2024-01-07)
 
 
