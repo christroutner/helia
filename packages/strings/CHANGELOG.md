@@ -20,6 +20,40 @@
   * dependencies
     * @helia/interface bumped from ^3.0.0 to ^3.0.1
 
+## [4.0.0](https://github.com/christroutner/helia/compare/strings-v3.0.0...strings-v4.0.0) (2024-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* the `libp2p` property has been removed from the `Helia` interface in `@helia/interface` - it is still present on the return type of `createHelia` from the `helia` module
+* uses multiformats v13 and helia v3
+
+### Features
+
+* add @helia/http to monorepo ([#372](https://github.com/christroutner/helia/issues/372)) ([76220cd](https://github.com/christroutner/helia/commit/76220cd5adf45af7fa61fd0a1321de4722b744d6))
+* initial import ([23a13d8](https://github.com/christroutner/helia/commit/23a13d844c3b9adfdea13214d974f1c7e1d7539d))
+* update helia to v3 and multiformats to v13 ([#87](https://github.com/christroutner/helia/issues/87)) ([ae7cbc9](https://github.com/christroutner/helia/commit/ae7cbc9a16a267cb0f6d7cecd381f919430afaea))
+
+
+### Bug Fixes
+
+* linting and deps ([22d3900](https://github.com/christroutner/helia/commit/22d3900c15b0876419460c4db57b41f91e78d52f))
+
+
+### Documentation
+
+* update readme ([#6](https://github.com/christroutner/helia/issues/6)) ([c62f784](https://github.com/christroutner/helia/commit/c62f78499d75ba96da60a4de2f6a0ae3f007abfb))
+* update readmes ([2a700dc](https://github.com/christroutner/helia/commit/2a700dc30945857e5ec596a8551adf488dc18009))
+* update tocs ([3d4573d](https://github.com/christroutner/helia/commit/3d4573d9bc22bdd79043b6fec570e8410c8d1228))
+
+
+### Dependencies
+
+* bump @helia/interface from 1.2.2 to 2.0.0 ([#39](https://github.com/christroutner/helia/issues/39)) ([7c9bc2e](https://github.com/christroutner/helia/commit/7c9bc2e9f99ccbaec1d8c25c900585deb5f6a327))
+* The following workspace dependencies were updated
+  * dependencies
+    * @helia/interface bumped from ^4.0.0 to ^5.0.0
+
 ## [3.0.0](https://github.com/ipfs/helia/compare/strings-v2.0.1...strings-v3.0.0) (2024-01-24)
 
 
